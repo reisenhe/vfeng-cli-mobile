@@ -6,11 +6,19 @@
 </template>
 
 <script>
+import request from '@/utils/request'
 export default {
   data() {
     return {
-      data1: ''
+      data1: '这是data1'
     }
+  },
+  mounted() {
+    request.get('/api/list', {
+      data: '1-1'
+    }).then((res) => {
+      console.log(res)
+    })
   }
 }
 </script>
