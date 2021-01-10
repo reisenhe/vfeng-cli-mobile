@@ -1,0 +1,36 @@
+/* Font-face
+============================================================================= */
+@font-face {
+	font-family: 'lnicon';
+    src: url('~@/assets/fonts/lnicon.ttf') format('truetype');
+    font-weight: normal;
+	font-style: normal;
+}
+
+.lnicon {
+	position: relative;
+	top: -1px;
+	display: inline-block;
+	font-family: 'lnicon';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.LN-home:before { content: "\A001";}
+.LN-classification:before { content: "\a002";}
+.LN-user:before { content: "\a003";}
+.LN-bed:before { content: "\a004";}
+.LN-food:before { content: "\a005";}
+.LN-food-1:before { content: "\a006";}
+.LN-gif:before { content: "\a007";}
+.LN-tree:before { content: "\a008";}
+.LN-plane:before { content: "\a009";}
+.LN-tennis:before { content: "\a010";}
+.LN-vouchers:before { content: "\a011";}
+.LN-angle-down:before { content: "\a012";}
+.LN-angle-up:before { content: "\a013";}
+.LN-shopping:before { content: "\a014";}
+.LN-top:before { content: "\a015";}

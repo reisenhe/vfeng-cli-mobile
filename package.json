@@ -4,14 +4,17 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "serve:production": "vue-cli-service serve --mode production",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^0.21.0",
     "core-js": "^3.6.5",
+    "lib-flexible": "^0.3.2",
     "lodash": "^4.17.20",
-    "postcss-px2rem": "^0.3.0",
+    "moment": "^2.29.1",
+    "vant": "^2.12.3",
     "vue": "^2.6.11",
     "vue-router": "^3.4.9"
   },
@@ -20,9 +23,11 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^5.0.0",
+    "postcss-pxtorem": "^5.1.1",
     "sass-loader": "^10.1.0",
     "vue-template-compiler": "^2.6.11"
   },

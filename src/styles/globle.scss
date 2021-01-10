@@ -1,1 +1,90 @@
-@import './reset.scss'
+@import 'reset.scss';
+@import 'VVfont.scss';
+@import 'lnicon.scss';
+
+.container{
+  font-size: 28px;
+}
+.submit1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  box-sizing: border-box;
+}
+.colorR1Bg{
+  color: #fff;
+  background-color: $color1;
+}
+
+.border0,.borderT,.borderB,.borderR,.borderL,.borderList{ position: relative;}
+.border0:before,
+.borderT:before,
+.borderB:before,
+.borderR:before,
+.borderL:before,
+.borderList:before{
+    content: "";
+    pointer-events: none;
+    box-sizing: border-box;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 0;
+    top: 0;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    z-index: 1;
+}
+.border0:before{
+    border:1px solid #e5e5e5;
+}
+.borderT:before,
+.borderList:before{
+    border-top: 1px solid #e5e5e5;
+}
+.borderList:first-of-type:before{
+    border-top: none;
+}
+.borderB:before{
+    border-bottom: 1px solid #e5e5e5;
+}
+.borderR:before{
+    border-right: 1px solid #e5e5e5;
+}
+.borderL:before{
+    border-left: 1px solid #e5e5e5;
+}
+
+// 用户列表
+.li-link{
+  position: relative;
+  display: flex;
+  padding: 20px 0 20px 30px;
+}
+.li-link p {
+  flex: 1;
+  color: #333;
+  font-size: 30px;
+  line-height: 60px;
+}
+.li-link .i_right {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  color: #ccc;
+}
+.li-link .i_right span {
+  display: block;
+  font-size: 24px;
+  margin-right: 10px;
+  line-height: normal;
+}
+.li-link .i_right i {
+    top: 2px;
+    font-size: 28px;
+}

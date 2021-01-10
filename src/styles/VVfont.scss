@@ -1,0 +1,316 @@
+/* Font-face
+============================================================================= */
+@font-face {
+	font-family: 'VV-font';
+    src: url('~@/assets/fonts/VV-font.ttf') format('truetype');
+    font-weight: normal;
+	font-style: normal;
+}
+
+
+.VVfont {
+	position: relative;
+	top: -2px;
+	display: inline-block;
+	font-family: 'VV-font';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hm-share-1:before { content: "\a001";}
+.hm-share-2:before { content: "\a002";}
+.hm-share-3:before { content: "\a003";}
+.hm-play:before { content: "\a004";}
+.hm-fitness:before { content: "\a005";}
+.hm-pool:before { content: "\a006";}
+.hm-shopping-1:before { content: "\a007";}
+.hm-shopping-2:before { content: "\a008";}
+.hm-shopping-3:before { content: "\a009";}
+.hm-hook-1:before { content: "\a010";}
+.hm-hook-2:before { content: "\a011";}
+.hm-wrong-1:before { content: "\a012";}
+.hm-spa-1:before { content: "\a013";}
+.hm-water-1:before { content: "\a014";}
+.hm-Customer:before { content: "\a015";}
+.hm-trees-1:before { content: "\a016";}
+.hm-spa-2:before { content: "\a017";}
+.hm-spa-3:before { content: "\a018";}
+.hm-phone-1:before { content: "\a019";}
+.hm-lock:before { content: "\a020";}
+.hm-user:before { content: "\a021";}
+.hm-star:before { content: "\a022";}
+.hm-card-1:before { content: "\a023";}
+.hm-card-2:before { content: "\a024";}
+.hm-card-3:before { content: "\a025";}
+.hm-money-1:before { content: "\a026";}
+.hm-money-2:before { content: "\a027";}
+.hm-money-3:before { content: "\a028";}
+.hm-money-4:before { content: "\a029";}
+.hm-money-5:before { content: "\a030";}
+.hm-money-6:before { content: "\a031";}
+.hm-money-7:before { content: "\a032";}
+.hm-money-8:before { content: "\a033";}
+.hm-money-9:before { content: "\a034";}
+.hm-erweima:before { content: "\a035";}
+.hm-picture:before { content: "\a036";}
+.hm-map-1:before { content: "\a037";}
+.hm-phone:before { content: "\a038";}
+.hm-calendar:before { content: "\a039";}
+.hm-Mobile-1:before { content: "\a040";}
+.hm-exclamation:before { content: "\a041";}
+.hm-question:before { content: "\a042";}
+.hm-list:before { content: "\a043";}
+.hm-bed:before { content: "\a044";}
+.hm-food:before { content: "\a045";}
+.hm-gift:before { content: "\a046";}
+.hm-money-10:before { content: "\a047";}
+.hm-tree:before { content: "\a048";}
+.hm-angle-left:before { content: "\a049";}
+.hm-angle-right:before { content: "\a050";}
+.hm-envelope:before { content: "\a051";}
+.hm-print:before { content: "\a052";}
+.hm-home-1:before { content: "\a053";}
+.hm-web:before { content: "\a054";}
+.hm-menu:before { content: "\a055";}
+.hm-home:before { content: "\a056";}
+.hm-about:before { content: "\a057";}
+.hm-case:before { content: "\a058";}
+.hm-love:before { content: "\a059";}
+.hm-place:before { content: "\a060";}
+.hm-money:before { content: "\a061";}
+.hm-booking:before { content: "\a062";}
+.hm-contact:before { content: "\a063";}
+.hm-plane:before { content: "\a064";}
+.hm-menu-1:before { content: "\a065";}
+.hm-qq:before { content: "\a066";}
+.hm-weixin:before { content: "\a067";}
+.hm-weibo:before { content: "\a068";}
+.hm-camera:before { content: "\a069";}
+.hm-plus:before { content: "\a070";}
+.hm-trash:before { content: "\a071";}
+.hm-wrong:before { content: "\a072";}
+.hm-ok:before { content: "\a073";}
+.hm-phone-2:before { content: "\a074";}
+.hm-question-1:before { content: "\a075";}
+.hm-chat:before { content: "\a076";}
+.hm-angle-left-2:before { content: "\a077";}
+.hm-angle-right-2:before { content: "\a078";}
+.hm-heart:before { content: "\a079";}
+.hm-plus-1:before { content: "\a080";}
+.hm-user-2:before { content: "\a081";}
+.hm-search:before { content: "\a082";}
+.hm-gift-2:before { content: "\a083";}
+.hm-user-3:before { content: "\a084";}
+.hm-exclamation-2:before { content: "\a085";}
+.hm-new:before { content: "\a086";}
+.hm-video:before { content: "\a087";}
+.hm-refresh:before { content: "\a088";}
+.hm-minus-1:before { content: "\a089";}
+.hm-book:before { content: "\a090";}
+.hm-minus:before { content: "\a091";}
+.hm-ok-1:before { content: "\a092";}
+.hm-card-4:before { content: "\a093";}
+.hm-vouchers:before { content: "\a094";}
+.hm-chat-1:before { content: "\a095";}
+.hm-complete:before { content: "\a096";}
+.hm-integral:before { content: "\a097";}
+.hm-group:before { content: "\a098";}
+.hm-cooperation:before { content: "\a099";}
+.hm-calendar-1:before { content: "\a100";}
+.hm-angle-up:before { content: "\a101";}
+.hm-angle-down:before { content: "\a102";}
+.hm-ok-2:before { content: "\a103";}
+.hm-map-2:before { content: "\a104";}
+.hm-map-3:before { content: "\a105";}
+.hm-calendar-2:before { content: "\a106";}
+.hm-home-2:before { content: "\a107";}
+.hm-order:before { content: "\a108";}
+.hm-home-3:before { content: "\a109";}
+.hm-home-4:before { content: "\a110";}
+.hm-city:before { content: "\a111";}
+.hm-search-1:before { content: "\a112";}
+.hm-wifi:before { content: "\a113";}
+.hm-parking:before { content: "\a114";}
+.hm-fitness-1:before { content: "\a115";}
+.hm-bed-1:before { content: "\a116";}
+.hm-tableware:before { content: "\a117";}
+.hm-food-1:before { content: "\a118";}
+.hm-user-1:before { content: "\a119";}
+.hm-order-1:before { content: "\a120";}
+.hm-wallet:before { content: "\a121";}
+.hm-user-4:before { content: "\a122";}
+.hm-down:before { content: "\a123";}
+.hm-city-1:before { content: "\a124";}
+.hm-comments:before { content: "\a125";}
+.hm-WeChatpay:before { content: "\a126";}
+.hm-remind:before { content: "\a127";}
+.hm-phone-3:before { content: "\a128";}
+.hm-lock-1:before { content: "\a129";}
+.hm-calendar-3:before { content: "\a130";}
+.hm-chat-2:before { content: "\a131";}
+.hm-recommended:before { content: "\a132";}
+.hm-exchange:before { content: "\a133";}
+.hm-bus:before { content: "\a134";}
+.hm-eyes:before { content: "\a135";}
+.hm-plus-2:before { content: "\a136";}
+.hm-minus-2:before { content: "\a137";}
+.hm-comments-1:before { content: "\a138";}
+.hm-integral-1:before { content: "\a139";}
+.hm-car:before { content: "\a140";}
+.hm-massage:before { content: "\a141";}
+.hm-golf:before { content: "\a142";}
+.hm-cinema:before { content: "\a143";}
+.hm-microphone:before { content: "\a144";}
+.hm-child:before { content: "\a145";}
+.hm-safe:before { content: "\a146";}
+.hm-plant:before { content: "\a147";}
+.hm-Customer-1:before { content: "\a148";}
+.hm-block:before { content: "\a149";}
+.hm-health:before { content: "\a150";}
+.hm-yoga:before { content: "\a151";}
+.hm-vegetables:before { content: "\a152";}
+.hm-luggage:before { content: "\a153";}
+.hm-diamond:before { content: "\a154";}
+.hm-shopping-4:before { content: "\a155";}
+.hm-classification:before { content: "\a156";}
+.hm-user-5:before { content: "\a157";}
+.hm-coupons:before { content: "\a158";}
+.hm-about-1:before { content: "\a159";}
+.hm-tags:before { content: "\a160";}
+.hm-chat-3:before { content: "\a161";}
+.hm-trees-2:before { content: "\a162";}
+.hm-cogs:before { content: "\a163";}
+.hm-city-2:before { content: "\a164";}
+.hm-leaves:before { content: "\a165";}
+.hm-area:before { content: "\a166";}
+.hm-time:before { content: "\a167";}
+.hm-food-2:before { content: "\a168";}
+.hm-write:before { content: "\a169";}
+.hm-star-1:before { content: "\a170";}
+.hm-up:before { content: "\a171";}
+.hm-villa:before { content: "\a172";}
+.hm-sun:before { content: "\a173";}
+.hm-ring:before { content: "\a174";}
+.hm-qqzone:before { content: "\a175";}
+.hm-home-5:before { content: "\a176";}
+.hm-doctor:before { content: "\a177";}
+.hm-child-1:before { content: "\a178";}
+.hm-adult:before { content: "\a179";}
+.hm-pen:before { content: "\a180";}
+.hm-heart-1:before { content: "\a181";}
+.hm-medal:before { content: "\a182";}
+.hm-data:before { content: "\a183";}
+.hm-data-1:before { content: "\a184";}
+.hm-hm-finger:before { content: "\a185";}
+.hm-location:before { content: "\a186";}
+.hm-computer:before { content: "\a187";}
+.hm-positioning:before { content: "\a188";}
+.hm-navigation-1:before { content: "\a189";}
+.hm-navigation-2:before { content: "\a190";}
+.hm-age:before { content: "\a191";}
+.hm-picture-1:before { content: "\a192";}
+.hm-gender:before { content: "\a193";}
+.hm-heart-2:before { content: "\a194";}
+.hm-wrong-2:before { content: "\a195";}
+.hm-lock-2:before { content: "\a196";}
+.hm-Panorama:before { content: "\a197";}
+.hm-shower:before { content: "\a198";}
+.hm-cog:before { content: "\a199";}
+.hm-navigation-3:before { content: "\a200";}
+.hm-wrong-3:before { content: "\a201";}
+.hm-time-1:before { content: "\a202";}
+.hm-phone-4:before { content: "\a203";}
+.hm-angle-up-1:before { content: "\a204";}
+.hm-angle-down-1:before { content: "\a205";}
+.hm-clock:before { content: "\a206";}
+.hm-message-1:before { content: "\a207";}
+.hm-message-2:before { content: "\a208";}
+.hm-laba:before { content: "\a209";}
+.hm-news:before { content: "\a210";}
+.hm-card:before { content: "\a211";}
+.hm-ticket:before { content: "\A212";}
+.hm-fuhao:before { content: "\a213";}
+.hm-scanning:before { content: "\a214";}
+.hm-user-6:before { content: "\a215";}
+.hm-calendar-4:before{ content: "\a216";}
+.hm-lock-3:before{ content: "\a217";}
+.hm-money-a:before{ content: "\a218";}
+.hm-money-b:before{ content: "\a219";}
+.hm-smoking:before{ content: "\a220";}
+.hm-envelope-1:before{ content: "\a221";}
+.hm-print-1:before{ content: "\a222";}
+.hm-bed-3:before{ content: "\a223";}
+.hm-bed-4:before{ content: "\a224";}
+.hm-top:before{ content: "\a225";}
+.hm-angle-up-2:before{ content: "\a226";}
+.hm-angle-down-2:before{ content: "\a227";}
+.hm-cake:before{ content: "\a228";}
+.hm-fruit:before{ content: "\a229";}
+.hm-fruit-1:before{ content: "\a230";}
+.hm-tableware-1:before{ content: "\a231";}
+.hm-diamond-1:before{ content: "\a232";}
+.hm-user-7:before{ content: "\a233";}
+.hm-about-2:before{ content: "\a234";}
+.hm-classification-1:before{ content: "\a235";}
+.hm-money-c:before{ content: "\a236";}
+.hm-user-8:before{ content: "\a237";}
+.hm-card-5:before{ content: "\a238";}
+.hm-coupons-1:before{ content: "\a239";}
+.hm-leaves-1:before{ content: "\a240";}
+.hm-foot:before{ content: "\a241";}
+.hm-pen-1:before{ content: "\a242";}
+.hm-eyes-1:before{ content: "\a243";}
+.hm-download:before{ content: "\a244";}
+.hm-mall:before{ content: "\a245";}
+.hm-screening:before{ content: "\a246";}
+.hm-recommended-1:before{ content: "\a247";}
+.hm-wallet-1:before{ content: "\a248";}
+.hm-time-a:before{ content: "\a249";}
+.hm-square:before{ content: "\a250";}
+.hm-coffee:before{ content: "\a251";}
+.hm-drinks:before{ content: "\a252";}
+.hm-trophy:before{ content: "\a253";}
+.hm-balloon:before{ content: "\a254";}
+.hm-flowers:before{ content: "\a255";}
+.hm-stars:before{ content: "\a256";}
+.hm-heart-3:before{ content: "\a257";}
+.hm-chicken:before{ content: "\a258";}
+.hm-flower:before{ content: "\a259";}
+.hm-party:before{ content: "\a260";}
+.hm-link:before{ content: "\a261";}
+.hm-score:before{ content: "\a262";}
+.hm-bus-2:before { content: "\a263";}
+.hm-map-4:before { content: "\a264";}
+.hm-map-5:before { content: "\a265";}
+.hm-instructions:before { content: "\a266";}
+.hm-flags:before { content: "\a267";}
+.hm-flags-1:before { content: "\a268";}
+.hm-blacklist:before { content: "\a269";}
+.hm-report:before { content: "\a270";}
+.hm-order-2:before { content: "\a271";}
+.hm-complete-1:before { content: "\a272";}
+.hm-search-2:before { content: "\a273";}
+.hm-earth:before { content: "\a274";}
+.hm-camera-1:before { content: "\a275";}
+.hm-key:before { content: "\a276";}
+.hm-exchange-1:before { content: "\a277";}
+.hm-table:before { content: "\a278";}
+.hm-table-1:before { content: "\a279";}
+.hm-tags-1:before { content: "\a280";}
+.hm-broom:before { content: "\a281";}
+.hm-case-1:before { content: "\a282";}
+.hm-luggage-1:before { content: "\a283";}
+.hm-three:before { content: "\a284";}
+.hm-four:before { content: "\a285";}
+.hm-six:before { content: "\a286";}
+.hm-truck:before { content: "\a287";}
+.hm-scanning-1:before { content: "\a288";}
+.hm-money-d:before { content: "\a289";}
+.hm-prompt:before { content: "\a290";}
+.hm-spa-4:before { content: "\a291";}
+.hm-mall-1:before { content: "\a292";}
+.hm-mall-2:before { content: "\a293";}
+.hm-mountain:before { content: "\a294";}
