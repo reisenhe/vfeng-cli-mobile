@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="form-group">
-      <FormDate class="borderB" :dateRange="dateRange" @select="selectDate"></FormDate>
+      <FormDate class="borderB" :dateRange="{startDate, endDate}" @select="selectDate"></FormDate>
       <FormSelect class="borderB" @select="selectRoomAdult"></FormSelect>
       <input class="submit1 radius4 colorR1Bg" type="button" value="查找酒店" @click="submitFun()">
     </div>
@@ -13,7 +13,7 @@
 import Tabbar from '@/components/Tabbar'
 import FormDate from './FormDate'
 import FormSelect from './FormSelect'
-import { mapGetters, mapMutations } from 'vuex'
+import { mapGetters, mapActions } from 'vuex'
 
 export default {
   components: {
@@ -29,11 +29,9 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'dateRange'
+      'startDate',
+      'endDate'
     ])
-  },
-  mounted() {
-    console.log(this.dateRange)
   },
   methods: {
     selectDate(v) {
@@ -51,9 +49,9 @@ export default {
     submitFun() {
       console.log(this.startDate, this.endDate, this.room_num, this.adults)
     },
-    ...mapMutations({
-      setDateRange: 'SET_DATE_RANGE'
-    })
+    ...mapActions([
+      'setDateRange'
+    ])
   }
 }
 </script>

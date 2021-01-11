@@ -1,2 +1,3 @@
-export const SET_DATE_RANGE = 'SET_DATE_RANGE'
+export const SET_START_DATE = 'SET_START_DATE'
+export const SET_END_DATE = 'SET_END_DATE'
 export const SET_HOTEL_LIST_OBJ = 'SET_HOTEL_LIST_OBJ'
