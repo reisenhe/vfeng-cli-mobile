@@ -2,7 +2,7 @@
   <div class="show-page">
     <img alt="Vue logo" src="../../assets/logo.png">
     <h1>这是首页</h1>
-    <div class="test-box"><i class="VVfont hm-ok"></i></div>
+    <div class="p-des">点击下方 tab 切换其他页面</div>
     <Tabbar :active="0"></Tabbar>
   </div>
 </template>
@@ -41,5 +41,8 @@ export default {
     height: 100px;
     width: 100px;
     background-color: $primary-color;
+  }
+  .p-des{
+    margin-top: 30px;
   }
 </style>

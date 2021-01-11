@@ -4,6 +4,7 @@ import Home from '@/pages/Home'
 import Hotel from '@/pages/Hotel'
 import MemberCenter from '@/pages/MemberCenter'
 import ProductList from '@/pages/ProductList'
+import ProductDetail from '@/pages/ProductDetail'
 
 Vue.use(Router);
 
@@ -32,6 +33,11 @@ const router = new Router({
             path: '/productList',
             name: 'ProductList',
             component: ProductList
+        },
+        {
+            path: '/productDetail',
+            name: 'ProductDetail',
+            component: ProductDetail
         },
         {
             path: '/memberContent',

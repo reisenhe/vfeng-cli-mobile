@@ -1,0 +1,2 @@
+export const SET_DATE_RANGE = 'SET_DATE_RANGE'
+export const SET_HOTEL_LIST_OBJ = 'SET_HOTEL_LIST_OBJ'

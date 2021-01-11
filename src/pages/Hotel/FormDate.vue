@@ -19,15 +19,25 @@
 <script>
 import Vue from 'vue';
 import { Calendar } from 'vant';
-
-Vue.use(Calendar);
 import * as moment from 'moment';
+Vue.use(Calendar);
 export default {
+  props: {
+    dateRange: {
+      type: Object,
+      default: () => {
+        return {
+          startDate: '',  //入住日期
+          endDate: '',    //离店日期
+        }
+      }
+    }
+  },
   data() {
     return {
       show: false,  // 显示日历
-      startDate: moment().format("YYYY-MM-DD"),  //入住日期
-      endDate: moment().add(1, 'days').format("YYYY-MM-DD"),    //离店日期
+      startDate: this.dateRange.startDate || moment().format("YYYY-MM-DD"),  //入住日期
+      endDate: this.dateRange.endDate || moment().add(1, 'days').format("YYYY-MM-DD"),    //离店日期
     }
   },
   computed: {
@@ -39,6 +49,7 @@ export default {
     }
   },
   mounted() {
+    console.log(this.dateRange)
     this.emitVal()
   },
   methods: {

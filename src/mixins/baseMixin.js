@@ -2,7 +2,8 @@ import request from '@/utils/request'
 export const baseMixin = {
     data() {
         return {
-            langUrl: 'zh_cn'
+            langUrl: 'zh_cn',
+            cdnUrl: process.env.VUE_APP_CDN
         }
     },
     methods: {
@@ -18,4 +19,9 @@ export const baseMixin = {
             this.$router.push({name, query})
         }
     },
+    filters: {
+        JSONPLang(val) {
+            return JSON.parse(val)['zh_cn']
+        }
+    }
 }
