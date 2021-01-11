@@ -12,7 +12,7 @@
           <div class="d3 c">
               <div class="pr">
                   <!--纯积分-->
-                  <template v-if="productItem.is_pure_point && checkHotelsIsPoint(x)">
+                  <template v-if="productItem.is_pure_point && checkHotelsIsPoint">
                       <p class="p1 colorB1"><span>{{productItem.now_point}}</span>积分</p>
                   </template>
                   <!--非纯积分-->
@@ -70,6 +70,9 @@ export default {
       return text
     },
     checkHotelsIsPoint() {
+      if (!this.hotelsListObj || !this.productItem.hotels_id) {
+        return false
+      }
       return this.hotelsListObj[this.productItem.hotels_id] && this.hotelsListObj[this.productItem.hotels_id].is_point;
     }
   },
