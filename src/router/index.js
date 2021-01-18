@@ -32,7 +32,8 @@ const router = new Router({
         {
             path: '/productList',
             name: 'ProductList',
-            component: ProductList
+            component: ProductList,
+            meta:{ keepAlive: true }
         },
         {
             path: '/productDetail',
