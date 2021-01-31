@@ -32,10 +32,15 @@ export default {
   props: {
     active: Number
   },
-  data() {
-    return {
-      activeIndex: this.active
-    };
+  computed: {
+    activeIndex: {
+      get() {
+        return this.active
+      },
+      set() {
+        return
+      }
+    }
   }
 }
 </script>
